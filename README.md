@@ -42,10 +42,10 @@ $ go get github.com/rynlbrwn/gospace
 Now make `gospace` accessible from every workspace.
 
 ```
-$ gospace -global gospace
+$ gospace -global `which gospace`
 ```
 
-Now modify your `$GOPATH` to point to `~/.gospace`. For example, you could put this in `~/.profile`:
+Now modify your `$GOPATH` to point to `~/.gospace`. For example, you could put this in `~/.profile` and restart your terminal.
 
 ```
 export GOPATH=~/.gospace
